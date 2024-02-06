@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test --config=playwright.config.js --headed --debug"
+    "test": "playwright test --config=playwright.config.js --headed --debug",
+    "tests:lesson11": "playwright test --config=playwright-study.config.ts"
   },
   "type": "module",
   "keywords": [],
