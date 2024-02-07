@@ -14,7 +14,7 @@ export class LoginPage extends BasePage{
         this.passwordField = page.locator('//input[@type="password"]')
         this.submitBtn = page.locator('//button[@type="submit"]')
     }
-    async login(email = "bkiselychnyk@gmail.com", password = "Kisa_270989@"){
+    async login(email = "1337ilysha@gmail.com", password = "Test12345@"){
         await this.emailField.fill(email)
         await this.passwordField.fill(password)
         await this.submitBtn.click()
