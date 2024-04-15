@@ -55,7 +55,8 @@ exports.config = {
         platformName: 'Android',
         'appium:deviceName': 'Pixel 8',
         'appium:platformVersion': '11.0',
-        'appium:automationName': 'UiAutomator2',
+        'appium:automationName': 'UiAutomator2'//,
+        //'appium:app': path.join(process.cwd(), './android/ApiDemos-debug.apk')
 }],
     
 
